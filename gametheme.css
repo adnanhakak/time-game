@@ -1,0 +1,64 @@
+body{
+    color:white;
+}
+html{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.69)),url(wallpapers.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+
+
+#time{
+    font-size: 50px;
+    top:-10px;
+}
+#square{
+    background:gray;
+    width:  100px ;
+    height: 30px ;
+    display: none;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    color:black;
+    opacity: 0.5;
+}
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    position:fixed;
+    margin-right: 10px;
+    text-align: center;
+    color: green;
+    
+}
+.bottom-right:hover {
+    bottom: 0;
+    right: 0;
+    position:fixed;
+    margin-right: 20px;
+    text-align: center;
+    color: #3b0e0e;
+    text-decoration: underline;
+    font-size:16px;
+    
+}
+.bottom-right span {
+    color:#3b0e0e;
+    
+}
+.bottom-right:hover span {
+   
+    color:#23900a;
+}
+h1{
+	text-shadow: 2px 2px 4px gray;
+}
+
+
+
+    
