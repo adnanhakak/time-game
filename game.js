@@ -1,5 +1,5 @@
 
-// var start = new Date().getTime();      //time measured when page is loaded
+// let start = new Date().getTime();      //time measured when page is loaded
 
 // setTimeout(makeShapeAppear,Math.random() * 2000);       //fnc call after random sec's between 0-2000ms 
 
@@ -13,7 +13,7 @@ document.getElementById("square").onclick = function () {
 
     document.getElementById("square").style.left = Math.random() * 900 + "px";
 
-    var width = Math.random() * 150 + 50;
+    let width = Math.random() * 150 + 50;
 
     document.getElementById("square").style.width = width + "px";
 
@@ -31,9 +31,9 @@ document.getElementById("square").onclick = function () {
     }
     document.getElementById("square").style.display = "none";
 
-    var end = new Date().getTime();
+    let end = new Date().getTime();
 
-    var timeTaken = (end - start) / 1000;
+    let timeTaken = (end - start) / 1000;
 
     document.getElementById("time").innerHTML = timeTaken;
 
@@ -49,10 +49,10 @@ function makeShapeAppear() {
 
 function generateRandomColor() {
     //pick a "red" from 0 - 255
-    var r = Math.floor(Math.random() * 256);
+    let r = Math.floor(Math.random() * 256);
     //pick a "green" from 0 - 255
-    var g = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
     //pick a "blue" from 0 - 255                                      //rgb colors
-    var b = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
     return "rgb(" + r + ", " + g + ", " + b + ")";
 }
